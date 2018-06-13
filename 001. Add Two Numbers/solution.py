@@ -60,3 +60,8 @@ if __name__ == "__main__":
     lsum.next.next = ListNode(0)
     lsum.next.next.next = ListNode(1)
     print(compareLinkedList(Solution().addTwoNumbers(l1, l2), lsum))
+
+
+
+
+
