@@ -1,14 +1,11 @@
 # 题目
-Question： Given an array of integers, return indices of the two numbers such that they add up to a specific target. 
-You may assume that each input would have exactly one solution.
+Question: 给定一个整数数组和一个目标值，找出数组中和为目标值的两个数。
+你可以假设每个输入只对应一种答案，且同样的元素不能被重复利用。
 
-Example: 
-Given nums = [2, 7, 11, 15], target = 9, 
-Because nums[0] + nums[1] = 2 + 7 = 9, 
-return [0, 1].
-
-descript：给定一个数组，和目标值，求数组里两个数的和等于目标值的下标，数组里数不重复。
-
+示例:
+给定 nums = [2, 7, 11, 15], target = 9
+因为 nums[0] + nums[1] = 2 + 7 = 9
+所以返回 [0, 1]
 
 
 # 思路

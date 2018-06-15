@@ -1,7 +1,7 @@
 #!python3
 
 
-# Definition for singly-linked list.
+# 自定义listnode，在LeetCode中记得注释掉
 class ListNode:
     def __init__(self, x):
         self.val = x
