@@ -26,8 +26,26 @@ class Solution(object):
             return None
         if type(headB) != ListNode:
             return None
-        len = lengthOfList(headA)
-        print(len)
+        lenA = lengthOfList(headA)
+        lenB = lengthOfList(headB)
+        if lenA > lenB :
+            while lenA > lenB:
+                lenB = lenB + 1
+                headA = headA.next
+
+        elif lenA < lenB:
+            while lenA < lenB:
+                lenA = lenA + 1
+                headB = headB.next
+
+        # 从头到尾遍历
+        while headA != None:
+            if headA == headB:
+                return headA
+            headA = headA.next
+            headB = headB.next
+
+            
        
         return None
 if __name__ == "__main__":
